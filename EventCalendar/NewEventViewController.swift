@@ -18,11 +18,10 @@ class NewEventViewController: UIViewController {
     let EventDate: UIDatePicker = {
         let datePicker = UIDatePicker()
         datePicker.addTarget(self, action: #selector(datePickerValueChanged(_:)), for: .valueChanged)
-//        datePicker.locale = Locale(identifier: "ru_RU")
         datePicker.locale = Locale(identifier: "en_US_POSIX")
-//        datePicker.isUserInteractionEnabled = true
         return datePicker
     }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,7 +51,12 @@ class NewEventViewController: UIViewController {
     }
     
     @objc func add() {
-        
+        let comp = EventDate.calendar.dateComponents([.hour, .minute, .year, .month, .day], from: EventDate.date)
+        let key = "\(comp.year!)-\(comp.month!)-\(comp.day!)"
+        let newEvent = Event(name: eventNameTextField.text!, time: "\(comp.hour!):\(comp.minute!)")
+        var events = getEvents(key: key)
+        events.append(newEvent)
+        saveData(key: key, events: events)
     }
     
     @objc func datePickerValueChanged(_ datePicker: UIDatePicker) {

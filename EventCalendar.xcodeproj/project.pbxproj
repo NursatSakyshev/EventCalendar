@@ -13,6 +13,8 @@
 		C808BF642ACD11DF0093BA9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C808BF622ACD11DF0093BA9D /* LaunchScreen.storyboard */; };
 		C879664C2ACF0FDD0033188C /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879664B2ACF0FDD0033188C /* NewEventViewController.swift */; };
 		C879664E2ACF138C0033188C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879664D2ACF138C0033188C /* CustomTextField.swift */; };
+		C87966502ACF2C720033188C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879664F2ACF2C720033188C /* Event.swift */; };
+		C87966522ACF3BFD0033188C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87966512ACF3BFD0033188C /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C808BF652ACD11DF0093BA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C879664B2ACF0FDD0033188C /* NewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
 		C879664D2ACF138C0033188C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C879664F2ACF2C720033188C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C87966512ACF3BFD0033188C /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C808BF652ACD11DF0093BA9D /* Info.plist */,
 				C879664B2ACF0FDD0033188C /* NewEventViewController.swift */,
 				C879664D2ACF138C0033188C /* CustomTextField.swift */,
+				C879664F2ACF2C720033188C /* Event.swift */,
+				C87966512ACF3BFD0033188C /* CustomCell.swift */,
 			);
 			path = EventCalendar;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				C808BF5C2ACD11DE0093BA9D /* ViewController.swift in Sources */,
 				C879664C2ACF0FDD0033188C /* NewEventViewController.swift in Sources */,
 				C808BF582ACD11DE0093BA9D /* AppDelegate.swift in Sources */,
+				C87966522ACF3BFD0033188C /* CustomCell.swift in Sources */,
+				C87966502ACF2C720033188C /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
