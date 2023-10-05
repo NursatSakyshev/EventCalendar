@@ -12,6 +12,7 @@
 		C808BF612ACD11DF0093BA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C808BF602ACD11DF0093BA9D /* Assets.xcassets */; };
 		C808BF642ACD11DF0093BA9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C808BF622ACD11DF0093BA9D /* LaunchScreen.storyboard */; };
 		C879664C2ACF0FDD0033188C /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879664B2ACF0FDD0033188C /* NewEventViewController.swift */; };
+		C879664E2ACF138C0033188C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C879664D2ACF138C0033188C /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C808BF632ACD11DF0093BA9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C808BF652ACD11DF0093BA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C879664B2ACF0FDD0033188C /* NewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
+		C879664D2ACF138C0033188C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				C808BF622ACD11DF0093BA9D /* LaunchScreen.storyboard */,
 				C808BF652ACD11DF0093BA9D /* Info.plist */,
 				C879664B2ACF0FDD0033188C /* NewEventViewController.swift */,
+				C879664D2ACF138C0033188C /* CustomTextField.swift */,
 			);
 			path = EventCalendar;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C879664E2ACF138C0033188C /* CustomTextField.swift in Sources */,
 				C808BF5C2ACD11DE0093BA9D /* ViewController.swift in Sources */,
 				C879664C2ACF0FDD0033188C /* NewEventViewController.swift in Sources */,
 				C808BF582ACD11DE0093BA9D /* AppDelegate.swift in Sources */,
